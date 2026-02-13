@@ -40,10 +40,11 @@ RegisterCommand('Escort', function()
     exports['corry-escort']:escortPlayer()
 end)
 
--- Sent from client to display player information.
+-- Sent from client
 ```
 
 There are no proofs other than a distance check on the initial client function and a check to read of the player is escorting/being escorted already. Would be good to add other authentication to prevent exploiting.
 
 ## Credit
+
 Credit to Ox Community Dev for creating ox_lib.
